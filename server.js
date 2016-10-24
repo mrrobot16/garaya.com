@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
-let app = express();
-let port = process.env.PORT || 5000
+var app = express();
+var port = process.env.PORT || 5000
 // // expose node_modules to client app
 app.use(express.static(__dirname + "/node_modules"));
 app.use(express.static(__dirname + "/assets"));

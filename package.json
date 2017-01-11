@@ -2,7 +2,11 @@
   "name": "garaya.com",
   "version": "0.0.0",
   "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
-    "express": "~4.14.0"
+    "express": "~4.14.0",
+    "open": "0.0.5"
   }
 }

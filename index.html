@@ -67,7 +67,7 @@
 					<section id="contact">
 						<div class="inner">
 							<section>
-								<form method="post" action="#">
+								<form action="https://formspree.io/hector@hmgarcia.net" method="POST">
 									<div class="field half first">
 										<label for="name">Name</label>
 										<input type="text" name="name" id="name" />
@@ -81,11 +81,33 @@
 										<textarea name="message" id="message" rows="6"></textarea>
 									</div>
 									<ul class="actions">
+
 										<li><input type="submit" value="Send Message" class="special" /></li>
-										<li><input type="reset" value="Clear" /></li>
+										<input type="hidden" name="_subject" value="New message!">
+										<input type="hidden" name="_next" value="//www.garaya.com">
 									</ul>
 								</form>
 							</section>
+							<!-- <section>
+								<form action="https://formspree.io/hector@hmgarcia.net" method="POST">
+											<div class="row">
+												<div class="six columns">
+													<input class="u-full-width" type="name" placeholder="Name" id="NameInput" name="name">
+												</div>
+												<div class="six columns">
+													<input class="u-full-width" type="email" placeholder="Email" id="EmailInput" name="email">
+												</div>
+											</div>
+											<textarea class="u-full-width" placeholder="Message..." id="Message" name="message"></textarea>
+											<label class="example-send-yourself-copy">
+												<input type="checkbox">
+												<span class="label-body">Send a copy to yourself</span>
+											</label>
+											<input class="button" type="submit" value="Send">
+											<input type="hidden" name="_subject" value="New message!">
+											<input type="hidden" name="_next" value="//hmgarcia.herokuapp.com">
+										</form>
+							</section> -->
 							<section class="split">
 								<section>
 									<div class="contact-method">

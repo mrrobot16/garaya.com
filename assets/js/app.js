@@ -1,3 +1,3 @@
 function testing(){
-  console.log("testing!");
+  window.open("http://garaya.com");
 }
